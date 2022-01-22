@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Webhook CRUD Suite"  >
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.matchmove.testbase.Base" />
+			<class name="com.matchmove.tests.WebhookPutURLTest" />
+			<class name="com.matchmove.tests.WebhookPostTest" />
+			<class name="com.matchmove.tests.WebhookCategoryGetTest" />
+			<class name="com.matchmove.tests.WebhookDeleteURLTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
